@@ -9,7 +9,8 @@ def main():
     api_id = os.getenv('API_ID')
     api_hash = os.getenv('API_HASH')
     phone = os.getenv('PHONE')
-    fileName = os.getenv('FILENAME')
+    fileName = input("Enter the File Name: ")
+    fileName = fileName + '.csv'
 
     client = TelegramClient(phone, api_id, api_hash)
 
@@ -88,7 +89,7 @@ def main():
 def generateENV():
     print("Generating ENV File")
     envData = []
-    dataName = ['API_ID', 'API_HASH', 'PHONE', 'FILENAME']
+    dataName = ['API_ID', 'API_HASH', 'PHONE']
     print("Enter the Required Credentials:")
     index = 0
     for i in range(4):
