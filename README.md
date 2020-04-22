@@ -5,7 +5,7 @@ This project is used to scrape Telegram User details from the Group(s).
 ## Deployment
 
 ### Create a Telegram App and Get Your Credentials
-- Go to my.telegram.org  and log in.
+- Go to [my.telegram.org](https://my.telegram.org/auth) and log in.
 - Click on API development tools and fill the required fields.
 - Choose a name for the App and save the `App api_id`, `App api_hash` credentials.
 
