@@ -36,7 +36,7 @@ Phone Number should contain `country code`
 - Select the Group Number to be extracted.
 - A `CSV` file is generated
 
-### Get users from a all the group
+### Get users from all the groups
 - Execute the script
 ```
 python3 scrapeUserGroups.py
