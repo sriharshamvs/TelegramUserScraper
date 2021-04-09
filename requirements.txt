@@ -2,5 +2,5 @@ certifi==2019.11.28
 pyaes==1.6.1
 pyasn1==0.4.8
 python-dotenv==0.10.5
-rsa==4.0
+rsa==4.1
 Telethon==1.10.10
