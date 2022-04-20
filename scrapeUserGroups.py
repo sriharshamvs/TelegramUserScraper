@@ -92,8 +92,8 @@ def generateENV():
     dataName = ['API_ID', 'API_HASH', 'PHONE']
     print("Enter the Required Credentials:")
     index = 0
-    for i in range(4):
-        data = input('{}: '.format(dataName[i]))
+    for i in dataName:
+        data = input('{}: '.format(i))
         envData.append(data)
     with open(".env", mode="w",encoding='UTF-8') as f:
         for index in range(len(envData)):

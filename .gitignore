@@ -21,3 +21,6 @@ ipython_config.py
 
 # CSV File 
 *.csv
+
+# Test files
+test*
